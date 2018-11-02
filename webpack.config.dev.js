@@ -103,6 +103,7 @@ module.exports = {
       'process.env': {
         CLIENT: JSON.stringify(true),
         'NODE_ENV': JSON.stringify('development'),
+        'MONGO_URL': JSON.stringify('monodb://192.168.99.100:32771/')
       }
     }),
   ],
