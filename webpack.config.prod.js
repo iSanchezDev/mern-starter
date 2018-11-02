@@ -98,6 +98,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify('production'),
+        'MONGO_URL': JSON.stringify('monodb://localhost:27071/')
       }
     }),
     new webpack.optimize.CommonsChunkPlugin({
